@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.12.24" id="ResourceRegistry"
+             SeparateXMLFiles="false" Package="com.kt.test.model" ClientType="Generic">
+  <pageMap>
+    <page path="v1_dept" usageId="v1_hrAppModule_DepartmentsROVOResources"/>
+  </pageMap>
+  <dataControlUsages>
+    <BC4JDataControl id="hrAppModuleDataControl" Package="com.kt.test.model.eo"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl" SupportsTransactions="true"
+                     SupportsFindMode="true" SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true" Configuration="hrAppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+  <pageDefinitionUsages>
+    <page id="v1_hrAppModule_DepartmentsROVOResources"
+          path="com.kt.test.model.eo.rest.v1.hrAppModule_DepartmentsROVOResources"/>
+  </pageDefinitionUsages>
+</Application>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!---->
+<BC4JConfig xmlns="http://xmlns.oracle.com/bc4j/configuration" version="11.1">
+  <AppModuleConfigBag ApplicationName="com.kt.test.model.eo.hrAppModule">
+    <AppModuleConfig name="hrAppModuleLocal" jbo.project="com.kt.test.model.Model"
+                     ApplicationName="com.kt.test.model.eo.hrAppModule" DeployPlatform="LOCAL">
+      <Database jbo.TypeMapEntries="OracleApps" JDBCDataSource="java:comp/env/jdbc/HrDS"/>
+      <Security AppModuleJndiName="com.kt.test.model.eo.hrAppModule"/>
+    </AppModuleConfig>
+    <AppModuleConfig name="hrAppModuleShared" jbo.project="com.kt.test.model.Model"
+                     ApplicationName="com.kt.test.model.eo.hrAppModule" DeployPlatform="LOCAL">
+      <AM-Pooling jbo.ampool.maxpoolsize="1" jbo.ampool.isuseexclusive="false"/>
+      <Database jbo.TypeMapEntries="OracleApps" JDBCDataSource="java:comp/env/jdbc/HrDS"/>
+      <Security AppModuleJndiName="com.kt.test.model.eo.hrAppModule"/>
+    </AppModuleConfig>
+  </AppModuleConfigBag>
+</BC4JConfig>
