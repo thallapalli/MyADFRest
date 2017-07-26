@@ -11,5 +11,8 @@
     <tree IterBinding="DepartmentsROVO1Iter" id="dept" AccessorFolder="Always">
       <nodeDefinition DefName="com.kt.test.model.rvo.DepartmentsROVO" Name="com.kt.test.model.rvo.DepartmentsROVO"/>
     </tree>
+    <tree IterBinding="DepartmentsROVO1Iter" id="deptu" AccessorFolder="Always">
+      <nodeDefinition DefName="com.kt.test.model.rvo.DepartmentsROVO" Name="com.kt.test.model.rvo.DepartmentsROVO"/>
+    </tree>
   </bindings>
 </pageDefinition>

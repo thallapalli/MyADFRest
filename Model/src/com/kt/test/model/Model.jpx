@@ -31,4 +31,12 @@
       <Attr Name="_VO" Value="true"/>
     </DesignTime>
   </Containee>
+  <Containee
+    Name="vo"
+    PackageName="com.kt.test.model.vo"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
 </JboProject>

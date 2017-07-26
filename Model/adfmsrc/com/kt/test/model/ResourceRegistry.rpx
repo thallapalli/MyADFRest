@@ -3,6 +3,7 @@
              SeparateXMLFiles="false" Package="com.kt.test.model" ClientType="Generic">
   <pageMap>
     <page path="v1_dept" usageId="v1_hrAppModule_DepartmentsROVOResources"/>
+    <page path="v1_deptu" usageId="v1_hrAppModule_DepartmentsROVOResources"/>
   </pageMap>
   <dataControlUsages>
     <BC4JDataControl id="hrAppModuleDataControl" Package="com.kt.test.model.eo"
